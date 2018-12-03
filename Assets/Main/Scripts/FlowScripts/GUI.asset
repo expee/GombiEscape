@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d31b62ec9d586a4e94389d9071559ca, type: 3}
+  m_Name: GUI
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.9,"type":"FlowCanvas.FlowScript","translation":{"x":-3640.0,"y":-4018.0},"zoomFactor":0.7549407,"nodes":[{"eventName":{"_value":"GombiDead"},"target":{},"targets":{},"_position":{"x":5106.0,"y":5204.0},"$type":"FlowCanvas.Nodes.CustomEvent","$id":"2"},{"_method":{"_baseInfo":"GvG.GUIManager|UpdateGombisToSave|System.Void","_paramsInfo":""},"_callable":true,"_inputPortValues":{},"_position":{"x":5597.0,"y":5214.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"6"},{"eventName":{"_value":"GombiShieldDead"},"target":{},"targets":{},"_position":{"x":5093.0,"y":5384.0},"$type":"FlowCanvas.Nodes.CustomEvent","$id":"9"},{"_method":{"_baseInfo":"GvG.GUIManager|UpdateMartyredGombis|System.Void","_paramsInfo":""},"_callable":true,"_inputPortValues":{},"_position":{"x":5611.0,"y":5440.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"13"},{"eventName":{"_value":"GombiWorkerDead"},"target":{},"targets":{},"_color":{"r":1.0,"g":0.3607843,"b":0.3607843,"a":1.0},"_position":{"x":5093.0,"y":5598.0},"$type":"FlowCanvas.Nodes.CustomEvent","$id":"16"},{"_method":{"_baseInfo":"GvG.GUIManager|UpdateMartyredGombis|System.Void","_paramsInfo":""},"_callable":true,"_inputPortValues":{},"_position":{"x":5613.0,"y":5631.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"20"},{"eventName":{"_value":"GombiTractorDead"},"target":{},"targets":{},"_color":{"r":1.0,"g":0.3607843,"b":0.3607843,"a":1.0},"_position":{"x":5093.0,"y":5744.0},"$type":"FlowCanvas.Nodes.CustomEvent","$id":"23"},{"_method":{"_baseInfo":"GvG.GUIManager|UpdateMartyredGombis|System.Void","_paramsInfo":""},"_callable":true,"_inputPortValues":{},"_position":{"x":5623.0,"y":5773.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"27"},{"eventName":{"_value":"GameOver"},"target":{},"targets":{},"_color":{"r":1.0,"g":0.3607843,"b":0.3607843,"a":1.0},"_position":{"x":5087.0,"y":5935.0},"$type":"FlowCanvas.Nodes.CustomEvent","$id":"30"},{"_method":{"_baseInfo":"GvG.GUIManager|ShowGameOverScreen|System.Void","_paramsInfo":""},"_callable":true,"_inputPortValues":{},"_position":{"x":5618.0,"y":5950.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"34"}],"connections":[{"_sourcePortName":"Received","_targetPortName":"
+    ","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"6"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Received","_targetPortName":"
+    ","_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"13"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Received","_targetPortName":"
+    ","_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"20"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Received","_targetPortName":"
+    ","_sourceNode":{"$ref":"23"},"_targetNode":{"$ref":"27"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Received","_targetPortName":"
+    ","_sourceNode":{"$ref":"30"},"_targetNode":{"$ref":"34"},"$type":"FlowCanvas.BinderConnection"}],"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}}}'
+  _objectReferences: []
+  _deserializationFailed: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d31b62ec9d586a4e94389d9071559ca, type: 3}
+  m_Name: Bullet
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.9,"type":"FlowCanvas.FlowScript","translation":{"x":-5009.0,"y":-5018.0},"nodes":[{"target":{},"targets":{},"_position":{"x":5175.0,"y":5280.0},"$type":"FlowCanvas.Nodes.Collision2DEvents","$id":"2"},{"_method":{"_baseInfo":"GvG.Bullet|OnImpact|System.Void","_paramsInfo":"UnityEngine.Collision2D"},"_callable":true,"_inputPortValues":{},"_position":{"x":5517.0,"y":5288.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"5"},{"target":{},"targets":{},"_position":{"x":5198.0,"y":5522.0},"$type":"FlowCanvas.Nodes.Trigger2DEvents","$id":"8"},{"_method":{"_baseInfo":"GvG.Bullet|OnImpact|System.Void","_paramsInfo":"UnityEngine.Collider2D"},"_callable":true,"_inputPortValues":{},"_position":{"x":5517.0,"y":5471.0},"$type":"FlowCanvas.Nodes.ReflectedMethodNodeWrapper","$id":"11"}],"connections":[{"_sourcePortName":"Enter","_targetPortName":"
+    ","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Collision
+    Info","_targetPortName":"collision","_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"5"},"$type":"FlowCanvas.BinderConnection`1[[UnityEngine.Collision2D,
+    UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"_sourcePortName":"Enter","_targetPortName":"
+    ","_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"11"},"$type":"FlowCanvas.BinderConnection"},{"_sourcePortName":"Other","_targetPortName":"collider","_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"11"},"$type":"FlowCanvas.BinderConnection`1[[UnityEngine.Collider2D,
+    UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}],"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}}}'
+  _objectReferences: []
+  _deserializationFailed: 0
